@@ -1,7 +1,7 @@
 import java.util.*;
 
 class PhoneBook {
-    private HashMap<String, Contact> contacts;
+    private final HashMap<String, Contact> contacts;
 
     public PhoneBook() {
         contacts = new HashMap<>();
