@@ -1,12 +1,11 @@
 import java.util.ArrayList;
 
 public class Contact {
-    private String name;
-    private ArrayList<Integer> numbers;
+    private final String name;
+    private final ArrayList<Integer> numbers = new ArrayList<>();
 
     public Contact(String name, int number) {
         this.name = name;
-        this.numbers = new ArrayList<>();
         this.numbers.add(number);
     }
 
